@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    
+    /* border: 1px solid red; */
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.navbar .inner_sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    /* border: 1px solid greenyellow; */
+    height: 100%;
+    margin-left: 2rem;
+}
+.left_sec{
+    display: flex;
+    gap: 1rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.left_sec > span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-check-input{
+    cursor: pointer;
+}
